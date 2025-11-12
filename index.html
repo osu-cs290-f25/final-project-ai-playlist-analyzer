@@ -11,23 +11,49 @@
         <h1>
             Mood Ratings (title)
         </h1>
-        <h2 class="search">
-            search
-        </h2>
-        <h2 class="filters">
-            filters
-        </h2>
-        <section id="post-container">
-            <a href="#" class="post" data-creator="Calvin Grabowski" data-upvotes="0" data-views="0" data-mood="Upbeat"> 
-                <div class="image-section">
-                    image would go here
-                </div>
-                <div class="post-description">
-                    <p class="post-title">Super Awesome Upbeat Tracks</p>
-                </div>
-            </a>
+        <main class="content">
+            <h2 class="search">
+                search
+                <!-- searching for the name of the playlist or the mood of the playlist -->
+                 <div class="search-bar">
+                    <label class="search-bar-name">Search</label> 
+                    <!-- might not need the label -->
+                     <div class="search-bar-box">
+                        <input class="search-bar-input">search...</input>
+                     </div>
+                 </div>
+            </h2>
+            <div class="sorting-box">
+                <h2 class="sorting">
+                    sorting
+                </h2>
 
-        </section>
-        
+                <div class="sort-upvotes">
+                    <label class="sort-upvotes-label">upvotes</label>
+                </div>
+                <!-- sort number of upvotes -->
+                 <!-- number of views -->
+                 <!-- how recent the post was created -->
+                  <!-- how recent the post was updated -->
+                   <!-- alphabetical by title -->
+                    <!-- alpabetical by creator -->
+
+                    <!-- make  -->
+                
+            </div>
+
+
+            <section id="post-container">
+                <a href="#" class="post" data-creator="Calvin Grabowski" data-upvotes="0" data-views="0" data-mood="Upbeat" data-creation-date="" data-creation> 
+                    <div class="image-section">
+                        image would go here
+                    </div>
+                    <div class="post-description">
+                        <p class="post-title">Super Awesome Upbeat Tracks</p>
+                    </div>
+                </a>
+
+            </section>
+        </main>
     </body>
 </html>

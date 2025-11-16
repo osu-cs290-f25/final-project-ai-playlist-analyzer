@@ -39,3 +39,21 @@ h1 {
 
   padding: 5px;
 }
+
+.post {
+
+  display: inline-block;
+
+  margin: 10px;
+
+  padding: 10px;
+
+  border: 1px solid #fff;
+
+  border-radius: 3px;
+}
+
+.post-description {
+
+  color: #fff;
+}

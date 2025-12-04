@@ -29,6 +29,13 @@ h1 {
   padding: 30px;
 }
 
+.content {
+
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
 .search {
 
   background-color: #474747;
@@ -40,6 +47,10 @@ h1 {
   margin: 0px;
 
   padding: 5px;
+
+  flex-basis: 100%;
+
+  width: 100%;
 }
 
 .search input {
@@ -78,4 +89,19 @@ h1 {
   font-size: 0.85em;
 
   margin-top: 8px;
+}
+
+.sorting-box {
+
+  min-width: 100px;
+
+  max-width: 200px;
+
+  margin: 10px 10px auto 10px;
+
+  padding: 20px;
+
+  background-color: #474747;
+
+  border-radius: 3px;
 }

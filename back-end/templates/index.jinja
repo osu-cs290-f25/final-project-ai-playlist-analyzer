@@ -7,45 +7,35 @@
   <script src="/static/index.js" charset="utf-8" defer></script>
 </head>
 <body>
-  <h1>Mood Ratings</h1>
+    <h1>Mood Ratings</h1>
 
-  <main class="content">
-    <!-- Playlist URL input box -->
-    <section class="playlist-input">
-      <h2>Add a Playlist</h2>
-      <form id="playlistForm">
-        <label for="playlistUrl">Playlist URL:</label>
-        <input type="url" id="playlistUrl" name="url" placeholder="Enter playlist URL" required>
+    <main class="content">
+        <!-- Playlist URL input box -->
+        <section class="playlist-input">
+        <h2>Add a Playlist</h2>
+        <form id="playlistForm">
+            <label for="playlistUrl">Playlist URL:</label>
+            <input type="url" id="playlistUrl" name="url" placeholder="Enter playlist URL" required>
+            
+
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+
+        <!-- Container to show submitted playlists -->
+        <section id="playlistContainer">
+        <h2>Stored Playlists</h2>
+        <ul id="playlistList"></ul>
+        </section>
+    </main>
+
         
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-
-    <!-- Container to show submitted playlists -->
-    <section id="playlistContainer">
-      <h2>Stored Playlists</h2>
-      <ul id="playlistList"></ul>
-    </section>
-  </main>
-</body>
-    <head>
-        <meta charset="utf-8">
-        <title>MoodRatings.com</title>
-        <link rel="stylesheet" href="/static/index.css">
-        <script src="/static/index.js" charset="utf-8" defer></script> 
-    </head>
-    <body>
-        <h1>
-            <!-- (title) -->
-            Mood Ratings 
-        </h1>
         <main class="content">
             <h2 class="search">
                 <!-- searching for the name of the playlist or the mood of the playlist -->
-                 <div class="search-bar">
+                    <div class="search-bar">
                     <input class="search-bar-input" placeholder="search"></input>
-                 </div>
+                    </div>
             </h2>
             <div class="sorting-box">
                 <h2 class="sorting">

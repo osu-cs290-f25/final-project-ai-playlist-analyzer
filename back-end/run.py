@@ -69,20 +69,4 @@ def add_playlist(playlist: Playlist):
 
 
 
-# extra stuff
-@app.get("/playlist")
-async def get_playlist():
-    with open("playlist.json") as f:
-        return json.load(f)
-
-class PlaylistData(BaseModel):
-    songs: list[str]
-    moods: list[str]
-    coverPhoto: str
-
-@app.post("/save")
-async def save_playlist(data: PlaylistData):
-    with open("playlist.json", "w") as f:
-        json.dump(data.dict(), f, indent=4)
-    return {"status": "saved"}
 

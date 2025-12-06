@@ -51,7 +51,7 @@ templates = Jinja2Templates(directory="templates")
 # this loads the default home page (index.html)
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse("index.jinja", {"request": request})
 
 @app.post("/add_playlist")
 def add_playlist(playlist: Playlist):

@@ -1,0 +1,26 @@
+ <section id="post-container">
+
+  {% for post in posts %}
+
+  <a href="#" class="post" data-creator="{{ post.creator }}" data-upvotes="{{ post.upvotes }}" data-views="{{ post.views }}" data-mood="{{ post.mood }}">
+                    
+    <div class="image-section">
+                        
+      <!-- image would go here -->
+      <img src="{{ post.photoUrl }}" alt="{{ post.description }}">
+                    
+    </div>
+                    
+    <div class="post-description">
+                        
+      <p class="post-title">{{ post.title }}</p>
+                    
+    </div>
+                
+  </a>
+
+  {% endfor %}
+
+</section>
+
+

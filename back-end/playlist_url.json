@@ -1,16 +1,72 @@
 {
   "playlists": [
     {
-      "url": "https://github.com/"
+      "url": "https://github.com/",
+      "playlist-name": "Mcgheeing", 
+      "image-url": "https://jpg.idk",
+      "songs": [
+        {
+          "title": "big hit",
+          "artist": "James Mcghee",
+          "mood": "Happy"
+        },
+        {
+          "title": "song names",
+          "artist": "James Mcghee",
+          "mood": "Sad"
+        }
+      ]
     },
     {
-      "url": "https://open.spotify.com/album/2CMlkzFI2oDAy5MbyV7OV5?highlight=spotify:track:4xqrdfXkTW4T0RauPLv3WA"
+      "url": "https://github.com/",
+      "playlist-name": "Mcgheeing",
+      "image-url": "https://jpg.idk",
+      "songs": [
+        {
+          "title": "big hit",
+          "artist": "James Mcghee",
+          "mood": "Happy"
+        },
+        {
+          "title": "song names",
+          "artist": "James Mcghee",
+          "mood": "Sad"
+        }
+      ]
     },
     {
-      "url": "https://picsum.photos/512"
+      "url": "https://picum.com",
+      "playlist-name": "Mcgheeing",
+      "image-url": "https://jpg.idk",
+      "songs": [
+        {
+          "title": "big hit",
+          "artist": "James Mcghee",
+          "mood": "Happy"
+        },
+        {
+          "title": "song names",
+          "artist": "James Mcghee",
+          "mood": "Sad"
+        }
+      ]
     },
     {
-      "url": "https://picum.com"
+      "url": "https://github.com/",
+      "playlist-name": "Mcgheeing",
+      "image-url": "https://jpg.idk",
+      "songs": [
+        {
+          "title": "big hit",
+          "artist": "James Mcghee",
+          "mood": "Happy"
+        },
+        {
+          "title": "song names",
+          "artist": "James Mcghee",
+          "mood": "Sad"
+        }
+      ]
     }
   ]
 }

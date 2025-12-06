@@ -7,8 +7,14 @@ import json
 import os
 
 # Run with:
+from pydantic import BaseModel
+import json
+
+# how to run the code
 # python -m uvicorn run:app --reload --host 0.0.0.0 --port 7222
 # Then visit: http://flip2.engr.oregonstate.edu:7222
+
+
 
 app = FastAPI()
 
@@ -32,6 +38,17 @@ else:
 class Playlist(BaseModel):
     url: str
 
+@app.get("/playlist")
+async def get_playlist():
+    with open("playlist.json") as f:
+        return json.load(f)
+ 
+# this makes the os look from the stat
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
+
+
+# this loads the default home page (index.html)
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
@@ -49,3 +66,23 @@ def add_playlist(playlist: Playlist):
         json.dump(playlist_data, f, indent=2)
 
     return {"message": "Received a playlist!", "playlist": new_playlist}
+
+
+
+# extra stuff
+@app.get("/playlist")
+async def get_playlist():
+    with open("playlist.json") as f:
+        return json.load(f)
+
+class PlaylistData(BaseModel):
+    songs: list[str]
+    moods: list[str]
+    coverPhoto: str
+
+@app.post("/save")
+async def save_playlist(data: PlaylistData):
+    with open("playlist.json", "w") as f:
+        json.dump(data.dict(), f, indent=4)
+    return {"status": "saved"}
+

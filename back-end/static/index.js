@@ -1,5 +1,34 @@
 
+// required to save the json
+fetch("/save", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+})
+    .then(response => response.json())
+    .then(result => {
+        console.log("Server response:", result)
+    })
+    .catch(error => console.error("Error:", error));
 
+// using the data in the 
+async function loadPlaylist() {
+    const response = await fetch("/playlist");
+    const playlist = await response.json();
+
+    // Update the image src with the coverPhoto URL
+    document.getElementById("cover").src = playlist.coverPhoto;
+
+    // Show songs/moods too
+    document.getElementById("results").innerText =
+        `Songs: ${playlist.songs.join(", ")}\nMoods: ${playlist.moods.join(", ")}`;
+}
+
+
+
+
+
+// someone elses stuff
 document.createElement("html")
 
 

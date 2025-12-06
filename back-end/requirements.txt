@@ -2,3 +2,5 @@ fastapi
 jinja2
 spotipy
 uvicorn
+sklearn
+pandas

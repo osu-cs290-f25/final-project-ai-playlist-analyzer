@@ -64,6 +64,13 @@ def add_playlist(playlist: Playlist):
 
     return {"message": "Received a playlist!"}
 
+ # this loads the singular post page
+@app.get("/playlist/{playlist_id}", response_class=HTMLResponse)
+async def playlist_detail(request: Request, playlist_id: int):
+    with open('playlist_url.json', 'r') as f:
+        data = json.load(f)
+    playlist = data['playlists'][playlist_id - 1]
+    return templates.TemplateResponse("postPage.jinja", {"request": request, "playlist": playlist})
 
 
 

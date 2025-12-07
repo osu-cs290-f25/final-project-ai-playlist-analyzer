@@ -1,1020 +1,6 @@
 {
     "playlists": [
         {
-            "url": "https://open.spotify.com/playlist/22vzWz8jg0xrIqBoE59ULO",
-            "playlist-name": "Throwback songs",
-            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84628db7096ae94375aae8872a",
-            "songs": [
-                {
-                    "title": "Beauty And A Beat",
-                    "artist": "Justin Bieber",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Breakeven",
-                    "artist": "The Script",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Mirrors",
-                    "artist": "Justin Timberlake",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Beautiful Girls",
-                    "artist": "Sean Kingston",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Die Young",
-                    "artist": "Kesha",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
-                    "artist": "James Arthur",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Your Love",
-                    "artist": "The Outfield",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don't Stop Me Now - Remastered 2011",
-                    "artist": "Queen",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "You're the One",
-                    "artist": "The Vogues",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "The End of the World - 1997 Remaster",
-                    "artist": "Herman's Hermits",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Until I Found You",
-                    "artist": "Stephen Sanchez",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Somewhere Only We Know",
-                    "artist": "Keane",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Formula",
-                    "artist": "Labrinth",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Let Her Go",
-                    "artist": "Passenger",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "House of Memories",
-                    "artist": "Panic! At The Disco",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Viva La Vida",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Can't Help Falling In Love",
-                    "artist": "Elvis Presley",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Say You Won't Let Go",
-                    "artist": "James Arthur",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Chasing Pavements",
-                    "artist": "Adele",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Everybody Wants To Rule The World",
-                    "artist": "Tears For Fears",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Put Your Head On My Shoulder",
-                    "artist": "Paul Anka",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Thunderstruck",
-                    "artist": "AC/DC",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Die For You",
-                    "artist": "The Weeknd",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "I'm Still Standing",
-                    "artist": "Elton John",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "7 Years",
-                    "artist": "Lukas Graham",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Accidentally In Love",
-                    "artist": "Counting Crows",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Something Just Like This",
-                    "artist": "The Chainsmokers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Riptide",
-                    "artist": "Vance Joy",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Apologize",
-                    "artist": "OneRepublic",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Safe And Sound",
-                    "artist": "Capital Cities",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "You Can't Hurry Love - 2016 Remaster",
-                    "artist": "Phil Collins",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "One Thing",
-                    "artist": "One Direction",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don\u2019t Blame Me",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "A Million Dreams",
-                    "artist": "P!nk",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Lay All Your Love On Me",
-                    "artist": "ABBA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Just the Way You Are",
-                    "artist": "Bruno Mars",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Treat You Better",
-                    "artist": "Shawn Mendes",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Late Night Talking",
-                    "artist": "Harry Styles",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Out Of The Woods",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hey, Soul Sister",
-                    "artist": "Train",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Night Changes",
-                    "artist": "One Direction",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Love Story (Taylor\u2019s Version)",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shallow",
-                    "artist": "Lady Gaga",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Mr. Brightside",
-                    "artist": "The Killers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Out of My League",
-                    "artist": "Fitz and The Tantrums",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Numb",
-                    "artist": "Linkin Park",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Space Oddity - 2015 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-                    "artist": "Daft Punk",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "A Sky Full of Stars",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Changes - 2015 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Under Pressure - Remastered 2011",
-                    "artist": "Queen",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Let's Dance - 2018 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Still into You",
-                    "artist": "Paramore",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rather Be (feat. Jess Glynne)",
-                    "artist": "Clean Bandit",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Give Your Heart a Break",
-                    "artist": "Demi Lovato",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Unwritten",
-                    "artist": "Natasha Bedingfield",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "My Boo",
-                    "artist": "USHER",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Crazy In Love (feat. JAY-Z)",
-                    "artist": "Beyonc\u00e9",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Cake By The Ocean",
-                    "artist": "DNCE",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shut Up and Dance",
-                    "artist": "WALK THE MOON",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "HandClap",
-                    "artist": "Fitz and The Tantrums",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "24K Magic",
-                    "artist": "Bruno Mars",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "3 Nights",
-                    "artist": "Dominic Fike",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "broken",
-                    "artist": "lovelytheband",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Whatever",
-                    "artist": "Kygo",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "California Dreamin'",
-                    "artist": "The Mamas & The Papas",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hotline Bling",
-                    "artist": "Drake",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Heartless",
-                    "artist": "Kanye West",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "No Scrubs",
-                    "artist": "TLC",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Return of the Mack",
-                    "artist": "Mark Morrison",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Video Killed The Radio Star",
-                    "artist": "The Buggles",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "The Middle",
-                    "artist": "Kid On The Block",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Total Eclipse of the Heart",
-                    "artist": "Bonnie Tyler",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Africa",
-                    "artist": "TOTO",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Wild World",
-                    "artist": "Yusuf / Cat Stevens",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Moonage Daydream - 2012 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rock 'n' Roll Suicide - 2012 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Run This Town",
-                    "artist": "JAY-Z",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Empire State Of Mind",
-                    "artist": "JAY-Z",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "As The World Falls Down",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "It Was A Good Day",
-                    "artist": "Ice Cube",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Wonderwall",
-                    "artist": "Oasis",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Kids",
-                    "artist": "MGMT",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Outside (feat. Ellie Goulding)",
-                    "artist": "Calvin Harris",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Head Over Heels - Dave Bascombe 7\" N.Mix",
-                    "artist": "Tears For Fears",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don't Stop Believin'",
-                    "artist": "Journey",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Dani California",
-                    "artist": "Red Hot Chili Peppers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "lovely (with Khalid)",
-                    "artist": "Billie Eilish",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Big Girl (You Are Beautiful)",
-                    "artist": "MIKA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "With You",
-                    "artist": "Chris Brown",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "human",
-                    "artist": "Christina Perri",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shower",
-                    "artist": "Becky G",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Paradise",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hymn for the Weekend",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "I Want It That Way",
-                    "artist": "Backstreet Boys",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rasputin",
-                    "artist": "Boney M.",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
-                    "artist": "ABBA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Who Loves You",
-                    "artist": "Jersey Boys",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Can't Take My Eyes off of You - From \"Jersey Boys\"",
-                    "artist": "John Lloyd Young",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "My Universe",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                }
-            ]
-        },
-        {
-            "url": "https://open.spotify.com/playlist/22vzWz8jg0xrIqBoE59ULO",
-            "playlist-name": "Throwback songs",
-            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84628db7096ae94375aae8872a",
-            "songs": [
-                {
-                    "title": "Beauty And A Beat",
-                    "artist": "Justin Bieber",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Breakeven",
-                    "artist": "The Script",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Mirrors",
-                    "artist": "Justin Timberlake",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Beautiful Girls",
-                    "artist": "Sean Kingston",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Die Young",
-                    "artist": "Kesha",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rewrite The Stars (with James Arthur & Anne-Marie)",
-                    "artist": "James Arthur",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Your Love",
-                    "artist": "The Outfield",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don't Stop Me Now - Remastered 2011",
-                    "artist": "Queen",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "You're the One",
-                    "artist": "The Vogues",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "The End of the World - 1997 Remaster",
-                    "artist": "Herman's Hermits",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Until I Found You",
-                    "artist": "Stephen Sanchez",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Somewhere Only We Know",
-                    "artist": "Keane",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Formula",
-                    "artist": "Labrinth",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Let Her Go",
-                    "artist": "Passenger",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "House of Memories",
-                    "artist": "Panic! At The Disco",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Viva La Vida",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Can't Help Falling In Love",
-                    "artist": "Elvis Presley",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Say You Won't Let Go",
-                    "artist": "James Arthur",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Chasing Pavements",
-                    "artist": "Adele",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Everybody Wants To Rule The World",
-                    "artist": "Tears For Fears",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Put Your Head On My Shoulder",
-                    "artist": "Paul Anka",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Thunderstruck",
-                    "artist": "AC/DC",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Die For You",
-                    "artist": "The Weeknd",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "I'm Still Standing",
-                    "artist": "Elton John",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "7 Years",
-                    "artist": "Lukas Graham",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Accidentally In Love",
-                    "artist": "Counting Crows",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Something Just Like This",
-                    "artist": "The Chainsmokers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Riptide",
-                    "artist": "Vance Joy",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Apologize",
-                    "artist": "OneRepublic",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Safe And Sound",
-                    "artist": "Capital Cities",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "You Can't Hurry Love - 2016 Remaster",
-                    "artist": "Phil Collins",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "One Thing",
-                    "artist": "One Direction",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don\u2019t Blame Me",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "A Million Dreams",
-                    "artist": "P!nk",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Lay All Your Love On Me",
-                    "artist": "ABBA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Just the Way You Are",
-                    "artist": "Bruno Mars",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Treat You Better",
-                    "artist": "Shawn Mendes",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Late Night Talking",
-                    "artist": "Harry Styles",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Out Of The Woods",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hey, Soul Sister",
-                    "artist": "Train",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Night Changes",
-                    "artist": "One Direction",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Love Story (Taylor\u2019s Version)",
-                    "artist": "Taylor Swift",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shallow",
-                    "artist": "Lady Gaga",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Mr. Brightside",
-                    "artist": "The Killers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Out of My League",
-                    "artist": "Fitz and The Tantrums",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Numb",
-                    "artist": "Linkin Park",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Space Oddity - 2015 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
-                    "artist": "Daft Punk",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "A Sky Full of Stars",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Changes - 2015 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Under Pressure - Remastered 2011",
-                    "artist": "Queen",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Let's Dance - 2018 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Still into You",
-                    "artist": "Paramore",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rather Be (feat. Jess Glynne)",
-                    "artist": "Clean Bandit",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Give Your Heart a Break",
-                    "artist": "Demi Lovato",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Unwritten",
-                    "artist": "Natasha Bedingfield",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "My Boo",
-                    "artist": "USHER",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Crazy In Love (feat. JAY-Z)",
-                    "artist": "Beyonc\u00e9",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Cake By The Ocean",
-                    "artist": "DNCE",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shut Up and Dance",
-                    "artist": "WALK THE MOON",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "HandClap",
-                    "artist": "Fitz and The Tantrums",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "24K Magic",
-                    "artist": "Bruno Mars",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "3 Nights",
-                    "artist": "Dominic Fike",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "broken",
-                    "artist": "lovelytheband",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Whatever",
-                    "artist": "Kygo",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "California Dreamin'",
-                    "artist": "The Mamas & The Papas",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hotline Bling",
-                    "artist": "Drake",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Heartless",
-                    "artist": "Kanye West",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "No Scrubs",
-                    "artist": "TLC",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Return of the Mack",
-                    "artist": "Mark Morrison",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Video Killed The Radio Star",
-                    "artist": "The Buggles",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "The Middle",
-                    "artist": "Kid On The Block",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Total Eclipse of the Heart",
-                    "artist": "Bonnie Tyler",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Africa",
-                    "artist": "TOTO",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Wild World",
-                    "artist": "Yusuf / Cat Stevens",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Moonage Daydream - 2012 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rock 'n' Roll Suicide - 2012 Remaster",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Run This Town",
-                    "artist": "JAY-Z",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Empire State Of Mind",
-                    "artist": "JAY-Z",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "As The World Falls Down",
-                    "artist": "David Bowie",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "It Was A Good Day",
-                    "artist": "Ice Cube",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Wonderwall",
-                    "artist": "Oasis",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Kids",
-                    "artist": "MGMT",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Outside (feat. Ellie Goulding)",
-                    "artist": "Calvin Harris",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Head Over Heels - Dave Bascombe 7\" N.Mix",
-                    "artist": "Tears For Fears",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Don't Stop Believin'",
-                    "artist": "Journey",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Dani California",
-                    "artist": "Red Hot Chili Peppers",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "lovely (with Khalid)",
-                    "artist": "Billie Eilish",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Big Girl (You Are Beautiful)",
-                    "artist": "MIKA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "With You",
-                    "artist": "Chris Brown",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "human",
-                    "artist": "Christina Perri",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Shower",
-                    "artist": "Becky G",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Paradise",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Hymn for the Weekend",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "I Want It That Way",
-                    "artist": "Backstreet Boys",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Rasputin",
-                    "artist": "Boney M.",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
-                    "artist": "ABBA",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Who Loves You",
-                    "artist": "Jersey Boys",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "Can't Take My Eyes off of You - From \"Jersey Boys\"",
-                    "artist": "John Lloyd Young",
-                    "mood": "Slow Hype"
-                },
-                {
-                    "title": "My Universe",
-                    "artist": "Coldplay",
-                    "mood": "Slow Hype"
-                }
-            ]
-        },
-        {
             "url": "https://open.spotify.com/playlist/7vWVX36xMHGwi1f9L9OX61",
             "playlist-name": "Roxane",
             "image-url": "https://mosaic.scdn.co/640/ab67616d00001e022043dd3544a339547d04b436ab67616d00001e02ba5db46f4b838ef6027e6f96ab67616d00001e02cbed1897404ad0491c4c2c91ab67616d00001e02da8d92affd796f7e20af7375",
@@ -1022,182 +8,182 @@
                 {
                     "title": "Without You (feat. Usher)",
                     "artist": "David Guetta",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
                     "artist": "Aerosmith",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Roxanne",
                     "artist": "The Police",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Castle on the Hill",
                     "artist": "Ed Sheeran",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Bigger Houses",
                     "artist": "Dan + Shay",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Meet you at the Graveyard",
                     "artist": "Cleffy",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Repeat Until Death",
                     "artist": "Novo Amor",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "APT.",
                     "artist": "ROS\u00c9",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Dangerously",
                     "artist": "Charlie Puth",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Take Me Home (feat. Bebe Rexha) - Acoustic",
                     "artist": "Cash Cash",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "The Only Exception",
                     "artist": "Paramore",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Mermaid",
                     "artist": "Train",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Shower",
                     "artist": "Becky G",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "We'll Follow The Sun",
                     "artist": "Hoku",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Rather Be (feat. Jess Glynne)",
                     "artist": "Clean Bandit",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Keep Your Head Up",
                     "artist": "Andy Grammer",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "What It Sounds Like",
                     "artist": "HUNTR/X",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Golden",
                     "artist": "HUNTR/X",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Summer Sunshine",
                     "artist": "Holly Lindin",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "You'll Be in My Heart",
                     "artist": "NIKI",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Die With A Smile",
                     "artist": "Lady Gaga",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "you look like you love me (feat. Riley Green)",
                     "artist": "Ella Langley",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Roots",
                     "artist": "Connor Price",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Eternity",
                     "artist": "Alex Warren",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Unloving You",
                     "artist": "Anson Seabra",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Lemonade - Ukulele Version",
                     "artist": "Jeremy Passion",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Here We Go Again",
                     "artist": "Demi Lovato",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Space Between",
                     "artist": "Dove Cameron",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Nothing I Hold on to (Live)",
                     "artist": "Will Reagan",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Beautiful Things",
                     "artist": "Benson Boone",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "We're Gonna Find It (From \"Barbie and the Diamond Castle')",
                     "artist": "Barbie",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Fall Around",
                     "artist": "Smoke & Jackal",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "You're Beautiful",
                     "artist": "James Blunt",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Love Somebody",
                     "artist": "Morgan Wallen",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Wherever You Will Go",
                     "artist": "The Calling",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Heaven Knows",
                     "artist": "Rick Price",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 }
             ]
         }

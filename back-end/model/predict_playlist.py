@@ -108,22 +108,25 @@ def analyze_playlist(playlist_url):
             # features = ['valence', 'energy', 'danceability', 'acousticness', 'loudness', 'speechiness']
             # make all the data get prepped into 0-1 range, and order it in the same order for the ai to analysis
             def preprocess_features(data):
-                raw_loudness = data.get("loudness", "-30 dB")
+                raw_loudness = data.get("loudness", "-60 dB")
                 loudness_val = float(raw_loudness.replace(" dB", ""))
 
                 return {
-                    "valence": data.get("happiness", 50)/100.0,
-                    "energy": data.get("energy", 50)/100.0,
-                    "danceability": data.get("danceability", 50)/100.0,
-                    "acousticness": data.get("acousticness", 50)/100.0,
+                    "valence": data.get("happiness", 0)/100.0,
+                    "energy": data.get("energy", 0)/100.0,
+                    "danceability": data.get("danceability", 0)/100.0,
+                    "acousticness": data.get("acousticness", 0)/100.0,
                     "loudness": (loudness_val / 60.0) + 1,  # normalize dB
-                    "speechiness": data.get("speechiness", 50)/100.0
+                    "speechiness": data.get("speechiness", 0)/100.0
                     # "tempo": data.get("tempo", 0) / 200.0,               # not needed, not tested with
                 }
-
             X_song = pd.DataFrame([preprocess_features(data)])
-            pred = model.predict(X_song)
-            mood = le.inverse_transform(pred)[0]
+            
+            if (X_song.values == 0).all():
+                mood = "Unknown"
+            else :
+                pred = model.predict(X_song)
+                mood = le.inverse_transform(pred)[0]
             
             
             time.sleep(1) # for now we remove the sleep

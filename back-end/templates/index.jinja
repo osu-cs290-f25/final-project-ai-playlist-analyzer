@@ -75,15 +75,22 @@
 
 
             <section id="post-container">
-                <a href="#" class="post" data-creator="Calvin Grabowski" data-upvotes="0" data-views="0" data-mood="Upbeat" data-creation-date="" data-creation> 
+
+              {% for playlist in playlists %}
+
+                <a href="/playlist/{{ loop.index }}" class="post" data-artist="{{ playlist.songs[0].artist }}" data-upvotes="0" data-views="0" data-mood="{{ playlist.mood }}">
+
                     <div class="image-section">
                         <!-- image would go here -->
-                        <img src="https://picsum.photos/512/" alt="photo of the playlist">
+                        <img src="{{ playlist['image-url'] }}" alt=" {{ playlist['playlist-name'] }}">
+
                     </div>
                     <div class="post-description">
-                        <p class="post-title">Super Awesome Upbeat Tracks</p>
+                        <p class="post-title">{{ playlist['playlist-name'] }}</p>
                     </div>
                 </a>
+
+                {% endfor %}
 
             </section>
         </main>

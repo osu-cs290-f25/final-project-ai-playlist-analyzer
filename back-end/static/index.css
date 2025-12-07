@@ -80,7 +80,7 @@ h1 {
 
 .post::after {
 
-  content: "Creator: " attr(data-creator) " | Upvotes: " attr(data-upvotes) " | Views: " attr(data-views) " | Mood: " attr(data-mood);
+  /*content: "Creator: " attr(data-creator) " | Upvotes: " attr(data-upvotes) " | Views: " attr(data-views) " | Mood: " attr(data-mood);*/
 
   display: block;
 

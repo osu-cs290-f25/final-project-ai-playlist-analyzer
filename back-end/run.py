@@ -5,7 +5,9 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 import json
 import os
+from starlette.exceptions import HTTPException as StarletteHTTPException
 from model.predict_playlist import analyze_playlist
+
 
 # Run with:
 from pydantic import BaseModel
@@ -65,7 +67,7 @@ async def playlist_detail(request: Request, playlist_id: int):
     with open('playlist_url.json', 'r') as f:
         data = json.load(f)
     playlist = data['playlists'][playlist_id - 1]
-    return templates.TemplateResponse("postPage.jinja", {"request": request, "playlist": playlist})
+    return templates.TemplateResponse("post_page.jinja", {"request": request, "playlist": playlist})
 
 
 @app.post("/add_playlist")
@@ -77,5 +79,16 @@ def add_playlist(playlist: Playlist):
     
 
     return {"message": "Received a playlist!"}
+
+@app.exception_handler(StarletteHTTPException)
+async def custom_http_exception_handler(request: Request, exc: StarletteHTTPException):
+    if exc.status_code == 404:
+        return templates.TemplateResponse(
+            "404.jinja",
+            {"request": request},
+            status_code=404
+        )
+    # fallback: let FastAPI handle other errors normally
+    return HTMLResponse(str(exc.detail), status_code=exc.status_code)
 
 

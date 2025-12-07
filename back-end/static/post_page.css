@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #333;
+    /* fallback before JS */
+    --secondary-color: #eee;
+    /* fallback before JS */
+}
+
+html {
+    background-color: var(--secondary-color);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2.5em;
+    /* calmer default */
+    margin: 0 0 12px;
+    /* reduce extra space */
+}
+
+#post-container {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header box uses primary color as BACKGROUND, white text */
+.header-box {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: #fff;
+    /* readable over primary */
+    margin-bottom: 30px;
+}
+
+/* Playlist image */
+.header-box img {
+    width: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+
+/* Playlist title */
+.post-title {
+    font-size: 3em;
+    /* avoid 5em bloat */
+    font-weight: bold;
+    margin: 0;
+    margin-left: 25px;
+    padding: 0;
+}
+
+/* Songs box uses secondary color */
+.song-box {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    color: #000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Songs list layout */
+.songs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.songs-list li {
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    align-items: baseline;
+    gap: 20px;
+    padding: 6px 0;
+}
+
+.song-info {
+    overflow-wrap: break-word;
+}
+
+.song-mood {
+    text-align: left;
+}

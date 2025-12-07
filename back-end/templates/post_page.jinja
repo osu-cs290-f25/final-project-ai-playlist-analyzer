@@ -1,0 +1,48 @@
+ <head>
+  <link rel="stylesheet" href="/static/post_page.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+  <script src="/static/post_page.js" defer></script>
+ </head>
+ <body>
+  <section id="post-container">
+
+    <div class="header-box">
+      <p class="post-title">{{ playlist['playlist-name'] }}</p>                  
+      <div class="post" data-artist="{{ playlist.songs[0].artist }}" data-upvotes="0" data-views="0" data-mood="{{ playlist.songs[0].mood }}">
+        <div class="image-section">
+          <!-- image would go here -->
+          <img id="playlist-cover" src="{{ playlist['image-url'] }}" alt="{{ playlist['playlist-name'] }}" crossorigin="anonymous">
+        </div>
+    </div>            
+    <div class="post-description">
+      <div class="song-box">
+        <h3>Songs:</h3>
+        <ul class="songs-list">
+          {% for song in playlist.songs %}
+          <li>
+            <span class="song-info">
+              <strong>{{ song.title }}</strong> by {{ song.artist }}
+            </span>
+            <span class="song-mood">{{ song.mood }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Color Thief for background color-->
+  <script>
+    const img = document.getElementById('playlist-cover');
+    const colorThief = new ColorThief();
+
+    img.addEventListener('load', () => {
+      const [r, g, b] = colorThief.getColor(img);
+      document.querySelector(".header-box").style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+    });
+  </script>
+
+</body>
+
+

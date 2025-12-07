@@ -26,7 +26,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # JSON file for storing playlists
-DATA_FILE = "./playlist_url.json"
+DATA_FILE = "playlist_url.json"
 
 # Load existing data if file exists, otherwise initialize
 if os.path.exists(DATA_FILE):
@@ -52,7 +52,21 @@ templates = Jinja2Templates(directory="templates")
 # this loads the default home page (index.html)
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("index.jinja", {"request": request})
+    with open(DATA_FILE, "r") as f:
+        data = json.load(f)
+    return templates.TemplateResponse(
+        "index.jinja",
+        {"request": request, "playlists": data["playlists"]}
+    )
+
+ # this loads the singular post page
+@app.get("/playlist/{playlist_id}", response_class=HTMLResponse)
+async def playlist_detail(request: Request, playlist_id: int):
+    with open('playlist_url.json', 'r') as f:
+        data = json.load(f)
+    playlist = data['playlists'][playlist_id - 1]
+    return templates.TemplateResponse("postPage.jinja", {"request": request, "playlist": playlist})
+
 
 @app.post("/add_playlist")
 def add_playlist(playlist: Playlist):
@@ -63,14 +77,5 @@ def add_playlist(playlist: Playlist):
     
 
     return {"message": "Received a playlist!"}
-
- # this loads the singular post page
-@app.get("/playlist/{playlist_id}", response_class=HTMLResponse)
-async def playlist_detail(request: Request, playlist_id: int):
-    with open('playlist_url.json', 'r') as f:
-        data = json.load(f)
-    playlist = data['playlists'][playlist_id - 1]
-    return templates.TemplateResponse("postPage.jinja", {"request": request, "playlist": playlist})
-
 
 

@@ -5,6 +5,7 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 import json
 import os
+from model.predict_playlist import analyze_playlist
 
 # Run with:
 from pydantic import BaseModel
@@ -58,14 +59,10 @@ def add_playlist(playlist: Playlist):
     if not playlist.url:
         raise HTTPException(status_code=400, detail="Need a request body with `url`")
 
-    new_playlist = {"url": playlist.url}
-    playlist_data.setdefault("playlists", []).append(new_playlist)
+    analyze_playlist(playlist.url)
+    
 
-    # Save back to JSON file
-    with open(DATA_FILE, "w") as f:
-        json.dump(playlist_data, f, indent=2)
-
-    return {"message": "Received a playlist!", "playlist": new_playlist}
+    return {"message": "Received a playlist!"}
 
 
 

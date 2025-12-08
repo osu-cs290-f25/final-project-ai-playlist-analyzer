@@ -10,66 +10,49 @@
 <body>
     <h1>Mood Ratings</h1>
 
-    <main class="content">
+    <main class="top-bar">
         <!-- Playlist URL input box -->
         <section class="playlist-input">
-        <h2>Add a Playlist</h2>
-        <form id="playlistForm">
-            <label for="playlistUrl">Playlist URL:</label>
-            <input type="url" id="playlistUrl" name="url" placeholder="Enter playlist URL" required>
-            
+            <h2>Add a Playlist</h2>
+            <form id="playlistForm">
+                <input type="url" id="playlistUrl" name="url" placeholder="Enter playlist URL" required>
+                
 
-            <button type="submit">Submit</button>
-        </form>
+                <button type="submit">Submit</button>
+            </form>
         </section>
 
         
-    </main>
 
         
-        <main class="content">
-            <h2 class="search">
-                <!-- searching for the name of the playlist or the mood of the playlist -->
-                    <div class="search-bar">
-                    <input class="search-bar-input" placeholder="search"></input>
-                    </div>
-            </h2>
-            <div class="sorting-box">
-                <h2 class="sorting">
-                    Sorting
-                </h2>
-
-                <!-- sort number of upvotes -->
-                <div class="sort-upvotes">
-                    <label class="sort-upvotes-label">Upvotes</label>
-                </div>
-
-                <!-- number of views -->
-                <div class="views">
-                    <label class="views-label">Views</label>
-                </div>
-
-                <!-- how recent the post was created -->
-                <div class="creation-date">
-                    <label class="creation-date-label">Date Created</label>
-                </div>
-
-                <!-- how recent the post was updated -->
-                <!-- nah -->
-
-                <!-- alphabetical by title -->
-                <div class="alpabetical-title">
-                    <label class="alpabetical-title-label">Title</label>
-                </div>
-
-                <!-- alpabetical by creator -->
-                <div class="alpabetical-creator">
-                    <label class="alpabetical-creator-label">Creator Name</label>
-                </div>
-                    <!-- make  -->
-                
+        <!-- Search + Sorting together -->
+        <section class="search-sort">
+            <div class="search-bar">
+            <label for="search">Search for Playlist:</label>
+                <input class="search-bar-input" placeholder="Search">
             </div>
+        
+            <div class="sorting-controls">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="upvotes">Upvotes</option>
+                    <option value="views">Views</option>
+                    <option value="date">Date Created</option>
+                    <option value="title">Title</option>
+                    <option value="creator">Creator Name</option>
+                </select>
+            </div>
+            <div class="direction-controls">
+                <label for="direction">Direction:</label>
+                <select id="direction">
+                    <option selected value="ascending">Ascending</option>
+                    <option value="descending">Descending</option>
+                </select>
+            </div>
+        </section>
+    </main>
 
+        <main class="content">
 
             <section id="post-container">
 

@@ -29,38 +29,175 @@ h1 {
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
-/* Content Layout */
-.content {
+#post-container {
   display: flex;
   flex-wrap: wrap;
+  /* allow wrapping to next line */
+  justify-content: flex-start;
+  /* align posts left to right */
+  gap: 20px;
+  /* spacing between posts */
+}
+.content {
+  display: grid;
+  grid-auto-flow: column;
+  /* fill columns first (left to right) */
+  grid-auto-columns: minmax(280px, 1fr);
+  gap: 20px;
   padding: 20px;
 }
 
-/* Search Bar */
-.search {
-  background-color: #1f1f1f;
+.top-bar {
   display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 10px 15px;
-  flex-basis: 100%;
-  width: 100%;
-  border-bottom: 1px solid #333;
+  align-items: stretch;
+  /* stretch children to same height */
+  /* playlist left, search/sort right */
+    align-items: flex-start;
+    /* align tops together */
+    gap: 40px;
+    /* spacing between sections */
+    margin: 20px;
 }
-.search input {
+
+.playlist-input,
+.search-sort {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 130px;
+    /* force equal height */
+}
+
+
+.playlist-input {
+  flex: 1;
+  background-color: #1f1f1f;
+  /* same dark background */
+  border: 1px solid #333;
+  /* subtle border */
+  border-radius: 8px;
+  /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  /* shadow like search box */
+  padding: 15px 20px;
+ 
+  /* spacing around the box */
+  color: #ccc;
+  /* text color consistent with theme */
+}
+
+.playlist-input h2 {
+  margin-top: 0;
+  color: #fff;
+  margin: 2px;
+  padding: 0px;
+  /* header stands out */
+}
+
+.playlist-input input[type="url"] {
+  width: 95%;
   padding: 10px;
-  border: none;
   border-radius: 5px;
-  outline: none;
-  font-size: 1rem;
+  border: none;
+  background-color: #2a2a2a;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.playlist-input button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7c00ff;
+  /* accent color */
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.playlist-input button:hover {
+  background-color: #9d4dff;
+  /* hover effect */
+}
+
+.search-sort {
+  display: flex;
+  flex-direction: column;
+  /* stack search, sort, direction vertically */
+  gap: 15px;
+  /* spacing between each line */
+  background-color: #1f1f1f;
+  /* match playlist aesthetics */
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  padding: 15px 20px;
+  color: #ccc;
+  flex: 1;
+  /* optional: let it size evenly with playlist box */
+}
+
+/* search bar section */
+.search-bar {
+  display: flex;
+  /* label + input inline */
+  align-items: center;
+  gap: 10px;
+  /* space between label and input */
+  margin-bottom: 6px;
+  /* spacing before next row */
+}
+.search-bar label {
+  white-space: nowrap;
+  /* keep label on one line */
+  color: #ccc;
+}
+
+.search-bar-input {
+  flex: 1;
+  /* let search input expand to fill remaining space */
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
   background-color: #2a2a2a;
   color: #fff;
 }
-.search input::placeholder {
-  color: #aaa;
+
+.search-sort {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* smaller gap between stacked items */
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  padding: 15px 20px;
+  color: #ccc;
+  flex: 1;
 }
 
+.sorting-controls,
+.direction-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* tighter space between label and select */
+  margin-bottom: 6px;
+  /* less vertical spacing between rows */
+}
+
+.sorting-controls select,
+.direction-controls select {
+  width: 140px;
+  /* compact width so rows align better */
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a2a2a;
+  color: #fff;
+}
 /* Post Cards */
 .post {
   display: flex;
@@ -98,6 +235,11 @@ h1 {
   color: #aaa;
   font-size: 0.8em;
   margin-top: 8px;
+}
+
+.post-container {
+  flex-direction: column;
+  max-width: fit-content;
 }
 
 /* Sorting Box */

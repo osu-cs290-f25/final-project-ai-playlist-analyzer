@@ -10,12 +10,41 @@
                 {
                     "title": "Welcome Home, Son",
                     "artist": "Radical Face",
-                    "mood": "Unknown"
+                    "mood": "Slow Hype"
                 },
                 {
                     "title": "The Funeral",
                     "artist": "Band of Horses",
-                    "mood": "Unknown"
+                    "mood": "Chill"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/0VNOfVzHGgpVqIes9qNNlj",
+            "playlist-name": "Hyper",
+            "image-url": "https://mosaic.scdn.co/640/ab67616d00001e024a6c0376235e5aa44e59d2c2ab67616d00001e029f5cce8304c42d3a5463fd23ab67616d00001e02b46f74097655d7f353caab14ab67616d00001e02e52a59a28efa4773dd2bfe1b",
+            "primary_color": "rgb(46, 34, 42)",
+            "secondary_color": "rgb(90, 80, 87)",
+            "songs": [
+                {
+                    "title": "As It Was",
+                    "artist": "Harry Styles",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "Cold Heart - PNAU Remix",
+                    "artist": "Elton John",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Everybody Talks",
+                    "artist": "Neon Trees",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "Dreams - 2004 Remaster",
+                    "artist": "Fleetwood Mac",
+                    "mood": "Hype"
                 }
             ]
         }

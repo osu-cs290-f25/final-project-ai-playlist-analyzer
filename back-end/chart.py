@@ -3,7 +3,7 @@ def generate_mood_chart(playlist_id: int, playlist: dict, percentages: dict, sta
     import os
 
     # Directory to store charts
-    mood_chart_imgs_dir = "mood_chart"  
+    mood_chart_imgs_dir = "mood_chart_imgs"  
     save_dir = os.path.join(static_dir, mood_chart_imgs_dir)
 
     # Make sure the folder exists

@@ -111,7 +111,7 @@ def analyze_playlist(playlist_url):
         track = item['track']
         track_name = track['name']
         artist = track['artists'][0]['name']
-
+        print(f"song: {track_name}, artist: {artist}")
         try:
             url = "https://track-analysis.p.rapidapi.com/pktx/analysis"
             params = {

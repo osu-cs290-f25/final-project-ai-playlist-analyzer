@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MoodRatings.com</title>
+  <title>SPA.com</title>
   <link rel="stylesheet" href="/static/index.css">
   <script src="/static/index.js" charset="utf-8" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
 </head>
 <body>
-    <h1>Mood Ratings</h1>
+    <h1>Spotify Playlist Analyzer</h1>
 
     <main class="top-bar">
         <!-- Playlist URL input box -->
@@ -37,6 +37,7 @@
             <div class="sorting-controls">
                 <label for="sort">Sort by:</label>
                 <select id="sort">
+                    <option selected value="coming-soon">Coming Soon...</option>
                     <option value="upvotes">Upvotes</option>
                     <option value="views">Views</option>
                     <option value="date">Date Created</option>
@@ -47,7 +48,8 @@
             <div class="direction-controls">
                 <label for="direction">Direction:</label>
                 <select id="direction">
-                    <option selected value="ascending">Ascending</option>
+                    <option selected value="coming-soon">Coming Soon...</option>
+                    <option value="ascending">Ascending</option>
                     <option value="descending">Descending</option>
                 </select>
             </div>

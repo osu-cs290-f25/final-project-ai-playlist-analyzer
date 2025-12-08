@@ -14,12 +14,15 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault(); // prevent default form submission
 
     const playlistUrl = document.getElementById("playlistUrl").value.trim();
+    const input = document.getElementById("playlistUrl");
 
     // Validate before sending
     if (!isSpotifyPlaylistUrl(playlistUrl)) {
       alert("Please enter a valid Spotify playlist URL.");
       return;
     }
+
+    input.value = "";
 
     try {
       const response = await fetch("/add_playlist", {
@@ -32,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         throw new Error("Failed to save playlist");
       }
       else {
-        document.getElementById("playlistUrl").value = "";
         alert("Playlist Saved")
+        location.reload();    // refreshes the page to load the new playlist
       }
       
 

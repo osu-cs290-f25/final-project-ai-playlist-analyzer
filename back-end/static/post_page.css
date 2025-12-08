@@ -44,14 +44,17 @@ body {
     margin-left: 25px;
 }
 
+.post-title p {
+    padding: 4px;
+}
 /* Playlist title */
 .post-title {
     font-size: 3em;
     /* avoid 5em bloat */
     font-weight: bold;
-    margin: 0;
+    margin: 4px;
     margin-left: 25px;
-    padding: 0;
+    padding: 0 4px;
 }
 
 /* Songs box uses secondary color */

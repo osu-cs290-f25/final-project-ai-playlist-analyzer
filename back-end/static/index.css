@@ -6,7 +6,12 @@ body {
   color: #eaeaea;
   line-height: 1.6;
 }
-
+.post {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  color: #fff;
+  /* fixed text color */
+}
 /* Links */
 a {
   text-decoration: none;

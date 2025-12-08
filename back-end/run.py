@@ -7,6 +7,9 @@ import json
 import os
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from model.predict_playlist import analyze_playlist
+import matplotlib.pyplot as plt
+from chart import generate_mood_chart
+
 
 
 # Run with:
@@ -53,13 +56,24 @@ templates = Jinja2Templates(directory="templates")
 
 # this loads the default home page (index.html)
 @app.get("/", response_class=HTMLResponse)
-async def home(request: Request):
+async def home(request: Request, search: str = None):
     with open(DATA_FILE, "r") as f:
         data = json.load(f)
+    playlists = data["playlists"]
+    if search:
+        playlists = [
+            p for p in playlists
+            if search.lower() in p['playlist-name'].lower() or
+                any(search.lower() in song['mood'].lower() for song in p    ['songs'])
+        ]
     return templates.TemplateResponse(
         "index.jinja",
-        {"request": request, "playlists": data["playlists"]}
+        {"request": request, "playlists": playlists, "search_query": search}
     )
+
+
+
+
 
  # this loads the singular post page
 @app.get("/playlist/{playlist_id}", response_class=HTMLResponse)
@@ -67,7 +81,29 @@ async def playlist_detail(request: Request, playlist_id: int):
     with open('playlist_url.json', 'r') as f:
         data = json.load(f)
     playlist = data['playlists'][playlist_id - 1]
-    return templates.TemplateResponse("post_page.jinja", {"request": request, "playlist": playlist})
+
+    # Count moods
+    mood_counts = {}
+    for song in playlist.get("songs", []):
+        mood = song.get("mood", "Unknown")
+        mood_counts[mood] = mood_counts.get(mood, 0) + 1
+
+    total_songs = len(playlist.get("songs", []))
+    percentages = {
+        mood: (count / total_songs) * 100
+        for mood, count in mood_counts.items()
+    } if total_songs > 0 else {}
+
+    # Call helper function
+    chart_path = generate_mood_chart(playlist_id, playlist, percentages)
+
+    # Attach chart path to playlist dict
+    playlist["chart"] = chart_path
+
+    return templates.TemplateResponse(
+        "post_page.jinja",
+        {"request": request, "playlist": playlist}
+    )
 
 
 @app.post("/add_playlist")
@@ -79,6 +115,7 @@ def add_playlist(playlist: Playlist):
     
 
     return {"message": "Received a playlist!"}
+
 
 @app.exception_handler(StarletteHTTPException)
 async def custom_http_exception_handler(request: Request, exc: StarletteHTTPException):

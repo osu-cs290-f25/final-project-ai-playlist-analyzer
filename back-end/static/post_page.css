@@ -17,6 +17,10 @@ h3 {
     /* reduce extra space */
 }
 
+body {
+    color: #fff;
+}
+
 #post-container {
     margin: 10px;
     font-family: Arial, sans-serif;

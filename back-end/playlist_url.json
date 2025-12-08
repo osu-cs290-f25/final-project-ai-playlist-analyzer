@@ -4,6 +4,441 @@
             "url": "https://open.spotify.com/playlist/7vWVX36xMHGwi1f9L9OX61",
             "playlist-name": "Roxane",
             "image-url": "https://mosaic.scdn.co/640/ab67616d00001e022043dd3544a339547d04b436ab67616d00001e02ba5db46f4b838ef6027e6f96ab67616d00001e02cbed1897404ad0491c4c2c91ab67616d00001e02da8d92affd796f7e20af7375",
+            "primary_color": "rgb(33, 16, 16)",
+            "secondary_color": "rgb(114, 103, 103)",
+            "songs": [
+                {
+                    "title": "Without You (feat. Usher)",
+                    "artist": "David Guetta",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+                    "artist": "Aerosmith",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "Roxanne",
+                    "artist": "The Police",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Castle on the Hill",
+                    "artist": "Ed Sheeran",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Bigger Houses",
+                    "artist": "Dan + Shay",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Meet you at the Graveyard",
+                    "artist": "Cleffy",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Repeat Until Death",
+                    "artist": "Novo Amor",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "APT.",
+                    "artist": "ROS\u00c9",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Dangerously",
+                    "artist": "Charlie Puth",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Take Me Home (feat. Bebe Rexha) - Acoustic",
+                    "artist": "Cash Cash",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "The Only Exception",
+                    "artist": "Paramore",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Mermaid",
+                    "artist": "Train",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Shower",
+                    "artist": "Becky G",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "We'll Follow The Sun",
+                    "artist": "Hoku",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Rather Be (feat. Jess Glynne)",
+                    "artist": "Clean Bandit",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Keep Your Head Up",
+                    "artist": "Andy Grammer",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "What It Sounds Like",
+                    "artist": "HUNTR/X",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Golden",
+                    "artist": "HUNTR/X",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Summer Sunshine",
+                    "artist": "Holly Lindin",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "You'll Be in My Heart",
+                    "artist": "NIKI",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Die With A Smile",
+                    "artist": "Lady Gaga",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "you look like you love me (feat. Riley Green)",
+                    "artist": "Ella Langley",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Roots",
+                    "artist": "Connor Price",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Eternity",
+                    "artist": "Alex Warren",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Unloving You",
+                    "artist": "Anson Seabra",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Lemonade - Ukulele Version",
+                    "artist": "Jeremy Passion",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Here We Go Again",
+                    "artist": "Demi Lovato",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Space Between",
+                    "artist": "Dove Cameron",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Nothing I Hold on to (Live)",
+                    "artist": "Will Reagan",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Beautiful Things",
+                    "artist": "Benson Boone",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "We're Gonna Find It (From \"Barbie and the Diamond Castle')",
+                    "artist": "Barbie",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Fall Around",
+                    "artist": "Smoke & Jackal",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "You're Beautiful",
+                    "artist": "James Blunt",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Love Somebody",
+                    "artist": "Morgan Wallen",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Wherever You Will Go",
+                    "artist": "The Calling",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Heaven Knows",
+                    "artist": "Rick Price",
+                    "mood": "Unknown"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/3fdEvvVcR4jcwBLczxQizz",
+            "playlist-name": "buddies",
+            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e14ad65ae6a1a0e1835b3f38",
+            "primary_color": "rgb(161, 76, 188)",
+            "secondary_color": "rgb(178, 108, 200)",
+            "songs": [
+                {
+                    "title": "Perfect",
+                    "artist": "Ed Sheeran",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Photograph",
+                    "artist": "Ed Sheeran",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Marry You",
+                    "artist": "Bruno Mars",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Just the Way You Are",
+                    "artist": "Bruno Mars",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Say You Won't Let Go",
+                    "artist": "James Arthur",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "All of Me",
+                    "artist": "John Legend",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "a thousand years",
+                    "artist": "Christina Perri",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Our Song",
+                    "artist": "Taylor Swift",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "This Town",
+                    "artist": "Niall Horan",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "I Like Me Better",
+                    "artist": "Lauv",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Something Just Like This",
+                    "artist": "The Chainsmokers",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "P.S. I LOVE YOU",
+                    "artist": "Paul Partohap",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "If I Ain't Got You",
+                    "artist": "Alicia Keys",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "ocean eyes",
+                    "artist": "Billie Eilish",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "See You Again (feat. Charlie Puth)",
+                    "artist": "Wiz Khalifa",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Count on Me",
+                    "artist": "Bruno Mars",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Love Me Like You Do",
+                    "artist": "Ellie Goulding",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Secret Love Song (feat. Jason Derulo)",
+                    "artist": "Little Mix",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Little Do You Know",
+                    "artist": "Alex & Sierra",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "What About Us",
+                    "artist": "P!nk",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "In the Name of Love",
+                    "artist": "Martin Garrix",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Let Me Love You",
+                    "artist": "DJ Snake",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Eastside (with Halsey & Khalid)",
+                    "artist": "benny blanco",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "A Million Dreams",
+                    "artist": "Ziv Zaifman",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "ARE WE STILL FRIENDS?",
+                    "artist": "Tyler, The Creator",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "10,000 Hours (with Justin Bieber)",
+                    "artist": "Dan + Shay",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Without You (feat. Usher)",
+                    "artist": "David Guetta",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "A Thousand Years (feat. Steve Kazee) - Pt. 2; The Twilight Saga: Breaking Dawn Soundtrack",
+                    "artist": "Christina Perri",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "True Colors",
+                    "artist": "Anna Kendrick",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "This Feeling",
+                    "artist": "The Chainsmokers",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Cut To The Feeling",
+                    "artist": "Carly Rae Jepsen",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "You'll Be In My Heart - From \"Tarzan\"/Soundtrack Version",
+                    "artist": "Phil Collins",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "I See the Light - From \"Tangled\" / Soundtrack Version",
+                    "artist": "Mandy Moore",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "You & I",
+                    "artist": "One Direction",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+                    "artist": "Ellie Goulding",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "She Will Be Loved - Radio Mix",
+                    "artist": "Maroon 5",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Moonlit Floor (Kiss Me)",
+                    "artist": "LISA",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Rather Be (feat. Jess Glynne)",
+                    "artist": "Clean Bandit",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "All 4 Nothing (I'm So In Love)",
+                    "artist": "Lauv",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "you are my star",
+                    "artist": "NSB",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Fast Car",
+                    "artist": "Luke Combs",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "One Call Away",
+                    "artist": "Charlie Puth",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Unconditionally",
+                    "artist": "Katy Perry",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Dear Future Husband",
+                    "artist": "Meghan Trainor",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "Like I'm Gonna Lose You (feat. John Legend)",
+                    "artist": "Meghan Trainor",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "I'm Yours",
+                    "artist": "Jason Mraz",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "You Belong With Me",
+                    "artist": "Taylor Swift",
+                    "mood": "Unknown"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/7vWVX36xMHGwi1f9L9OX61",
+            "playlist-name": "Roxane",
+            "image-url": "https://mosaic.scdn.co/640/ab67616d00001e022043dd3544a339547d04b436ab67616d00001e02ba5db46f4b838ef6027e6f96ab67616d00001e02cbed1897404ad0491c4c2c91ab67616d00001e02da8d92affd796f7e20af7375",
+            "primary_color": "rgb(33, 16, 16)",
+            "secondary_color": "rgb(84, 71, 71)",
             "songs": [
                 {
                     "title": "Without You (feat. Usher)",
@@ -190,22 +625,24 @@
         {
             "url": "https://open.spotify.com/playlist/1cSe1tbdYYYnyoP93yJlRA",
             "playlist-name": "POPULAR CHRISTMAS MUSIC \ud83c\udf85\ud83c\udffb\ud83c\udf84\ud83c\udf81 HITS 2025",
-            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d32926d832c9a9703970df0f",
+            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cd32926d832c9a9703970df0f",
+            "primary_color": "rgb(193, 177, 219)",
+            "secondary_color": "rgb(197, 181, 221)",
             "songs": [
                 {
                     "title": "All I Want for Christmas Is You",
                     "artist": "Mariah Carey",
-                    "mood": "Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Jingle Bell Rock",
                     "artist": "Bobby Helms",
-                    "mood": "Slow Hype"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Rockin' Around The Christmas Tree",
                     "artist": "Brenda Lee",
-                    "mood": "Strumming"
+                    "mood": "Unknown"
                 },
                 {
                     "title": "Let It Snow! Let It Snow! Let It Snow!",
@@ -690,6 +1127,44 @@
                 {
                     "title": "Feliz Navidad",
                     "artist": "North Star Notesmiths",
+                    "mood": "Unknown"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/3w0j0MGLJZvWUiyk9tjZzb",
+            "playlist-name": "Chill",
+            "image-url": "https://i.scdn.co/image/ab67616d00001e02cd04dac2533afadd6a179ba4",
+            "primary_color": "rgb(230, 202, 164)",
+            "secondary_color": "rgb(231, 205, 169)",
+            "songs": [
+                {
+                    "title": "Welcome Home, Son",
+                    "artist": "Radical Face",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "The Funeral",
+                    "artist": "Band of Horses",
+                    "mood": "Unknown"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/3w0j0MGLJZvWUiyk9tjZzb",
+            "playlist-name": "Chill",
+            "image-url": "https://i.scdn.co/image/ab67616d00001e02cd04dac2533afadd6a179ba4",
+            "primary_color": "rgb(230, 202, 164)",
+            "secondary_color": "rgb(231, 205, 169)",
+            "songs": [
+                {
+                    "title": "Welcome Home, Son",
+                    "artist": "Radical Face",
+                    "mood": "Unknown"
+                },
+                {
+                    "title": "The Funeral",
+                    "artist": "Band of Horses",
                     "mood": "Unknown"
                 }
             ]

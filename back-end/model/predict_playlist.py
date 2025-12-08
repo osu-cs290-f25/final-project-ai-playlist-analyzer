@@ -1,16 +1,28 @@
 import os
 from dotenv import load_dotenv
 import spotipy
-from spotipy.oauth2 import SpotifyOAuth
-import numpy as np
-from spotipy import Spotify
 import joblib
 import requests
 import time
 import pandas as pd
 from spotipy.oauth2 import SpotifyClientCredentials
-import spotipy
 import json
+from io import BytesIO
+from colorthief import ColorThief
+
+
+# color finder
+def adaptive_lighten(rgb, max_factor=0.4):
+    r, g, b = rgb
+    distance = (255 - r) + (255 - g) + (255 - b)
+    max_distance = 255 * 3
+    factor = (distance / max_distance) * max_factor
+
+    new_r = round(r + (255 - r) * factor)
+    new_g = round(g + (255 - g) * factor)
+    new_b = round(b + (255 - b) * factor)
+
+    return f"rgb({new_r}, {new_g}, {new_b})"
 
 # how we save the playlist
 def save_playlist_to_json(playlist_data, filename="playlist_url.json"):
@@ -73,11 +85,23 @@ def analyze_playlist(playlist_url):
     print("image of playlist:", image_url)
 
 
+    # download the playlist cover image
+    response = requests.get(image_url)
+    img_bytes = BytesIO(response.content)
+
+    # extract dominant color
+    color_thief = ColorThief(img_bytes)
+    r, g, b = color_thief.get_color(quality=1)
+
+    primary_color = f"rgb({r}, {g}, {b})"
+    secondary_color = adaptive_lighten((r, g, b), 0.25)
     # starts saving the data:
     playlist_data = {
         "url": playlist_url,
         "playlist-name": playlist['name'],
         "image-url": image_url,
+        "primary_color": primary_color,
+        "secondary_color": secondary_color,
         "songs": []
     }
 
@@ -129,7 +153,7 @@ def analyze_playlist(playlist_url):
                 mood = le.inverse_transform(pred)[0]
             
             
-            time.sleep(1) # for now we remove the sleep
+            time.sleep(0.1) # for now we remove the sleep
 
         except Exception as e:
             print(f"⚠️ Failed to fetch features for {track_name}: {e}")
@@ -144,6 +168,8 @@ def analyze_playlist(playlist_url):
 
     # Save to JSON file
     save_playlist_to_json(playlist_data)
+
+    # make the chart here in the futureS
 
 
 # for testing purposes

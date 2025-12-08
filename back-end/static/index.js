@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("playlistForm");
-  const list = document.getElementById("playlistList");
 
   form.addEventListener("submit", async (e) => {
-    
+    e.preventDefault();
+
     const playlistUrl = document.getElementById("playlistUrl").value;
 
     try {
@@ -13,9 +13,18 @@ document.addEventListener("DOMContentLoaded", () => {
         body: JSON.stringify({ url: playlistUrl })
       });
 
+      if (!response.ok) {
+        throw new Error("Failed to save playlist");
+      }
 
-    } catch {
-      if (!response.ok) throw new Error("Failed to save playlist");
+      const result = await response.json();
+      console.log("Playlist saved:", result);
+
+      // optional: refresh page
+      // location.reload();
+
+    } catch (err) {
+      console.error("Error saving playlist:", err);
     }
   });
 });

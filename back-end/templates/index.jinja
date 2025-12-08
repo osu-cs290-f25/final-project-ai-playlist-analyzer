@@ -28,9 +28,11 @@
         <!-- Search + Sorting together -->
         <section class="search-sort">
             <div class="search-bar">
-            <label for="search">Search for Playlist:</label>
-                <input class="search-bar-input" placeholder="Search">
-            </div>
+                <label for="search">Search for Playlist:</label>
+                <form id="search-form" action="/" method="get">
+                    <input class="search-bar-input" name="search" placeholde r="Search" value="{{ search_query or '' }}">
+                    </form>
+                </div>
         
             <div class="sorting-controls">
                 <label for="sort">Sort by:</label>
@@ -58,7 +60,15 @@
 
               {% for playlist in playlists %}
 
-                <a href="/playlist/{{ loop.index }}" class="post" data-artist="{{ playlist.songs[0].artist }}" data-upvotes="0" data-views="0" data-mood="{{ playlist.mood }}">
+                <a  href="/playlist/{{ loop.index }}" 
+                    class="post" 
+                    data-artist="{{ playlist.songs[0].artist }}" 
+                    data-upvotes="0" 
+                    data-views="0" 
+                    data-mood="{{ playlist.mood }}" 
+                    data-primary="{{ playlist.primary_color }}"
+                    data-secondary="{{ playlist.secondary_color }}">
+
 
                     <div class="image-section">
                         <!-- image would go here -->

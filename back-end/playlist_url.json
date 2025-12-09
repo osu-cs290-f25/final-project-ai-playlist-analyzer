@@ -47,6 +47,373 @@
                     "mood": "Hype"
                 }
             ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/403l8oUxnNMFHd5G3ef1uO",
+            "playlist-name": "Shortest playlist ever ",
+            "image-url": "https://mosaic.scdn.co/640/ab67616d00001e02363fc5f57367a5e1d296f9aaab67616d00001e0295664bfd9f28db615261101aab67616d00001e02a68696cd50d3517d796f03a9ab67616d00001e02df98c5b533f9feac6fa81061",
+            "primary_color": "rgb(82, 116, 147)",
+            "secondary_color": "rgb(106, 135, 162)",
+            "songs": [
+                {
+                    "title": "Wake Me Up - Acoustic",
+                    "artist": "Aloe Blacc",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Better When I'm Dancin'",
+                    "artist": "Meghan Trainor",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "I'm Still Standing - From \"Sing\" Original Motion Picture Soundtrack",
+                    "artist": "Taron Egerton",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Mystical Magical",
+                    "artist": "Benson Boone",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Birthday Rap",
+                    "artist": "Jack Black",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Steve's Lava Chicken",
+                    "artist": "Jack Black",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Sorry I'm Here For Someone Else",
+                    "artist": "Benson Boone",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Cheekbones",
+                    "artist": "Arrows in Action",
+                    "mood": "Strumming"
+                },
+                {
+                    "title": "The Sound of Silence",
+                    "artist": "Pentatonix",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Ophelia",
+                    "artist": "The Lumineers",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Sing",
+                    "artist": "Pentatonix",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "Underdog",
+                    "artist": "Imagine Dragons",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Sharks",
+                    "artist": "Imagine Dragons",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Nice To Meet You",
+                    "artist": "Myles Smith",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "The Fate of Ophelia",
+                    "artist": "Taylor Swift",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Everybody Wants To Rule The World",
+                    "artist": "Tears For Fears",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Defying Gravity",
+                    "artist": "Cynthia Erivo",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Papa Mama Loca Pipa",
+                    "artist": "The Minions",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Try Everything - From \"Zootropolis\"",
+                    "artist": "Shakira",
+                    "mood": "Slow Hype"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/3fdEvvVcR4jcwBLczxQizz",
+            "playlist-name": "buddies",
+            "image-url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e14ad65ae6a1a0e1835b3f38",
+            "primary_color": "rgb(161, 76, 188)",
+            "secondary_color": "rgb(171, 96, 195)",
+            "songs": [
+                {
+                    "title": "Perfect",
+                    "artist": "Ed Sheeran",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "Photograph",
+                    "artist": "Ed Sheeran",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Marry You",
+                    "artist": "Bruno Mars",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Just the Way You Are",
+                    "artist": "Bruno Mars",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Say You Won't Let Go",
+                    "artist": "James Arthur",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "All of Me",
+                    "artist": "John Legend",
+                    "mood": "Instrumental"
+                },
+                {
+                    "title": "a thousand years",
+                    "artist": "Christina Perri",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "Our Song",
+                    "artist": "Taylor Swift",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "This Town",
+                    "artist": "Niall Horan",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "I Like Me Better",
+                    "artist": "Lauv",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Something Just Like This",
+                    "artist": "The Chainsmokers",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "P.S. I LOVE YOU",
+                    "artist": "Paul Partohap",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "If I Ain't Got You",
+                    "artist": "Alicia Keys",
+                    "mood": "Slow Rap"
+                },
+                {
+                    "title": "ocean eyes",
+                    "artist": "Billie Eilish",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "See You Again (feat. Charlie Puth)",
+                    "artist": "Wiz Khalifa",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Count on Me",
+                    "artist": "Bruno Mars",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Love Me Like You Do",
+                    "artist": "Ellie Goulding",
+                    "mood": "Atmospheric Chill"
+                },
+                {
+                    "title": "Secret Love Song (feat. Jason Derulo)",
+                    "artist": "Little Mix",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Little Do You Know",
+                    "artist": "Alex & Sierra",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "What About Us",
+                    "artist": "P!nk",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "In the Name of Love",
+                    "artist": "Martin Garrix",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Let Me Love You",
+                    "artist": "DJ Snake",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "Eastside (with Halsey & Khalid)",
+                    "artist": "benny blanco",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "A Million Dreams",
+                    "artist": "Ziv Zaifman",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "ARE WE STILL FRIENDS?",
+                    "artist": "Tyler, The Creator",
+                    "mood": "Chill"
+                },
+                {
+                    "title": "10,000 Hours (with Justin Bieber)",
+                    "artist": "Dan + Shay",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Without You (feat. Usher)",
+                    "artist": "David Guetta",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "A Thousand Years (feat. Steve Kazee) - Pt. 2; The Twilight Saga: Breaking Dawn Soundtrack",
+                    "artist": "Christina Perri",
+                    "mood": "Extra Chill"
+                },
+                {
+                    "title": "True Colors",
+                    "artist": "Anna Kendrick",
+                    "mood": "Extra Chill"
+                },
+                {
+                    "title": "This Feeling",
+                    "artist": "The Chainsmokers",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Cut To The Feeling",
+                    "artist": "Carly Rae Jepsen",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "You'll Be In My Heart - From \"Tarzan\"/Soundtrack Version",
+                    "artist": "Phil Collins",
+                    "mood": "Instrumental"
+                },
+                {
+                    "title": "I See the Light - From \"Tangled\" / Soundtrack Version",
+                    "artist": "Mandy Moore",
+                    "mood": "Instrumental"
+                },
+                {
+                    "title": "You & I",
+                    "artist": "One Direction",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+                    "artist": "Ellie Goulding",
+                    "mood": "Atmospheric Chill"
+                },
+                {
+                    "title": "She Will Be Loved - Radio Mix",
+                    "artist": "Maroon 5",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Moonlit Floor (Kiss Me)",
+                    "artist": "LISA",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "Rather Be (feat. Jess Glynne)",
+                    "artist": "Clean Bandit",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "All 4 Nothing (I'm So In Love)",
+                    "artist": "Lauv",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "you are my star",
+                    "artist": "NSB",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Fast Car",
+                    "artist": "Luke Combs",
+                    "mood": "Happy"
+                },
+                {
+                    "title": "One Call Away",
+                    "artist": "Charlie Puth",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Unconditionally",
+                    "artist": "Katy Perry",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Dear Future Husband",
+                    "artist": "Meghan Trainor",
+                    "mood": "Slow Hype"
+                },
+                {
+                    "title": "Like I'm Gonna Lose You (feat. John Legend)",
+                    "artist": "Meghan Trainor",
+                    "mood": "Hopeful"
+                },
+                {
+                    "title": "I'm Yours",
+                    "artist": "Jason Mraz",
+                    "mood": "Hype"
+                },
+                {
+                    "title": "You Belong With Me",
+                    "artist": "Taylor Swift",
+                    "mood": "Hopeful"
+                }
+            ]
+        },
+        {
+            "url": "https://open.spotify.com/playlist/2eC9Tc6xITRdoqQSMwc4SJ",
+            "playlist-name": "Songs I know how to play",
+            "image-url": "https://i.scdn.co/image/ab67616d00001e021813ea8f590a0aab2820f922",
+            "primary_color": "rgb(197, 59, 17)",
+            "secondary_color": "rgb(206, 91, 55)",
+            "songs": [
+                {
+                    "title": "Stand By Me",
+                    "artist": "Ben E. King",
+                    "mood": "Strumming"
+                },
+                {
+                    "title": "Photograph",
+                    "artist": "Ed Sheeran",
+                    "mood": "Hopeful"
+                }
+            ]
         }
     ]
 }
